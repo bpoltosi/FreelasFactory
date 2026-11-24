@@ -1,22 +1,62 @@
-# Assets — Sport Show Ribas Esportes
+# Fotos necessárias — Sport Show Ribas Esportes
 
-Lista de imagens e materiais visuais reais necessários para substituir os placeholders (`<div class="img-placeholder">`) em `site/index.html`.
+Substitua os placeholders do `index.html` pelas fotos reais abaixo. Mantenha os nomes de arquivo sugeridos ou atualize o `src` no HTML.
 
-Salve os arquivos originais em `../../imagens/` e as versões otimizadas (`.webp` com fallback `.jpg` ou `.png`) nesta pasta (`site/assets/`).
+## Obrigatórias (hero e cards)
 
-## Placeholders a substituir
+| Placeholder no HTML | Nome sugerido | Descrição | Dimensões recomendadas |
+|---------------------|---------------|-----------|------------------------|
+| `[Foto aérea do complexo]` (hero) | `hero.jpg` | Foto aérea/ampla do complexo mostrando quadras de grama e areia + bar | 1200×1200 px (quadrada) |
+| `[Foto da quadra de grama]` (card Grama Sintética) | `quadra-grama.jpg` | Quadra de grama sintética iluminada, marcação visível | 800×600 px |
+| `[Foto das quadras de areia]` (card Quadras de Areia) | `quadra-areia.jpg` | Quadras de areia com redes, cobertura visível | 800×600 px |
+| `[Foto do bar e convivência]` (card Bar e Convivência) | `bar-convivencia.jpg` | Área do bar com mesas, ambiente de pós-jogo | 800×600 px |
 
-| Arquivo sugerido | Onde é usado no `index.html` | Texto atual do placeholder | Especificação recomendada |
-| --- | --- | --- | --- |
-| `logo.png` (ou `logo.svg`) | Header (`.img-placeholder--logo`) e Footer (`.img-placeholder--footer-logo`), além de `<link rel="icon">` | `[Logo]` | Logo oficial em fundo transparente (mín. 256×256 px). |
-| `hero-quadras-1600.webp` | Seção Hero (`.img-placeholder--hero`) | `[Foto da quadra]` | Foto aérea ou ampla mostrando as quadras do complexo (proporção ~4:3 ou 16:9, larg. máx. 1600–1920 px). Não usar `loading="lazy"`. |
-| `quadra-grama-sintetica-800.webp` | Seção Quadras e estrutura — Card 01 (`.img-placeholder--card`) | `[Foto da quadra de grama sintética]` | Foto real da quadra de futebol/futsal/society iluminada ou em jogo (proporção 16:10, larg. ~800–1200 px). |
-| `quadra-areia-800.webp` | Seção Quadras e estrutura — Card 02 (`.img-placeholder--card`) | `[Foto da quadra de areia]` | Foto real das quadras de beach tennis, futevôlei e vôlei de praia (proporção 16:10, larg. ~800–1200 px). |
-| `bar-convivencia-800.webp` | Seção Quadras e estrutura — Card 03 (`.img-placeholder--card`) | `[Foto do bar e espaço de convivência]` | Foto real do bar e área de confraternização pós-jogo (proporção 16:10, larg. ~800–1200 px). |
-| `og.jpg` | Meta tag `og:image` no `<head>` (adicionar após obter foto real) | — | Imagem para compartilhamento em redes sociais (1200×630 px). |
+## Complementares (galeria/estrutura - opcional)
 
-## Dados adicionais do briefing pendentes de confirmação com o cliente
-- Tabela real de valores por dia/faixa de horário (para substituir o aviso "Consulte valores pelo WhatsApp")
-- Formas de pagamento aceitas (Pix, cartão, dinheiro) e política de sinal/cancelamento
-- Confirmação do horário de funcionamento (08h às 00h seg–dom) e último horário reservável
-- Confirmação do perfil oficial no Instagram (`@ribasesportes`)
+| Placeholder | Nome sugerido | Descrição |
+|-------------|---------------|-----------|
+| Foto da fachada/placa | `fachada-placa.jpg` | Fachada do complexo com placa/nome visível |
+| Foto da entrada | `entrada.jpg` | Entrada principal, acesso de veículos/pedestres |
+| Foto do vestiário (se houver) | `vestiario.jpg` | Interior do vestiário/banheiros |
+| Foto do estacionamento | `estacionamento.jpg` | Área de estacionamento |
+
+## Identidade visual
+
+| Placeholder | Nome sugerido | Descrição |
+|-------------|---------------|-----------|
+| Logo oficial | `logo.png` | Logo do Sport Show Ribas Esportes (fundo transparente, 200×200 px mínimo) |
+| Imagem para redes sociais (OG) | `og.jpg` | 1200×630 px — foto do complexo + nome + "Quadras e Bar" |
+
+---
+
+## Como substituir
+
+1. Coloque os arquivos na pasta `assets/`
+2. No `index.html`, substitua os `<div class="img-placeholder">...</div>` por `<img src="assets/nome-do-arquivo.jpg" alt="Descrição" width="..." height="..." loading="lazy">`
+3. Atualize o `href` do `rel="icon"` e `rel="preload"` no `<head>` se usar nomes diferentes
+4. Atualize o `og:image` no `<head>` para `assets/og.jpg`
+
+---
+
+## Observações do briefing
+
+- **Nenhuma foto real disponível online** — todas as seções de imagem usam placeholders
+- **Logo não encontrada** — usar `brand-icon` com ícone Lucide até o cliente enviar
+- **Instagram @ribasesportes** — não confirmado oficialmente; link incluído como placeholder
+- **Preços não divulgados** — seção "Valores" direciona para WhatsApp sem tabela
+- **Horário 08h–00h** — baseado em fontes públicas online; adicionar nota de confirmação via WhatsApp
+
+---
+
+## Checklist de entrega ao cliente
+
+- [ ] Hero: foto aérea real do complexo
+- [ ] Card Grama: foto da quadra de grama sintética
+- [ ] Card Areia: foto das quadras de areia
+- [ ] Card Bar: foto do bar/espaço de convivência
+- [ ] Logo oficial (PNG transparente)
+- [ ] OG image (1200×630) para WhatsApp/redes sociais
+- [ ] Confirmação de horário de funcionamento
+- [ ] Confirmação de formas de pagamento (Pix, cartão, dinheiro)
+- [ ] Política de cancelamento/sinal
+- [ ] Instagram oficial confirmado

@@ -3,19 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sport Show | Ribas Esportes — Quadras Esportivas em Santa Maria/RS</title>
-  <meta name="description" content="Complexo esportivo no Patronato, Santa Maria/RS. Quadras de grama sintética, beach tennis, futevôlei, vôlei de praia e espaço de convivência. Reserve pelo WhatsApp.">
+  <title>Sport Show Ribas Esportes — Quadras de Grama Sintética e Areia em Santa Maria/RS</title>
+  <meta name="description" content="Aluguel de quadras de grama sintética (futebol/futsal/society) e areia (beach tennis, futevôlei, vôlei de praia) no Patronato, Santa Maria/RS. Bar no local. Reserve pelo WhatsApp.">
   <meta name="theme-color" content="#1F2421">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="preload" as="image" href="assets/hero.jpg">
 
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="Sport Show | Ribas Esportes — Quadras em Santa Maria/RS">
-  <meta property="og:description" content="Quadras de grama sintética e areia no Bairro Patronato, próximo ao Estádio Presidente Vargas. Consulte horários e reserve pelo WhatsApp.">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:title" content="Sport Show Ribas Esportes — Quadras e Bar no Patronato">
+  <meta property="og:description" content="Grama sintética e quadras de areia em Santa Maria/RS. Reserve seu horário pelo WhatsApp.">
+  <meta property="og:image" content="assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
   <link rel="stylesheet" href="css/style.css">
@@ -23,320 +26,249 @@
 <body>
   <a class="skip-link" href="#main">Pular para o conteúdo</a>
 
-  <!-- 1. Header -->
   <header class="site-header" data-header>
     <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="Sport Show | Ribas Esportes — início">
-        <div class="img-placeholder img-placeholder--logo" aria-hidden="true">[Logo]</div>
-        <span class="brand-text">Sport Show <span class="brand-sep" aria-hidden="true">|</span> <em>Ribas Esportes</em></span>
+      <a class="brand" href="#top" aria-label="Sport Show Ribas Esportes — início">
+        <div class="brand-icon" aria-hidden="true">
+          <i data-lucide="volleyball"></i>
+        </div>
+        <span class="brand-text">Sport Show<em>Ribas Esportes</em></span>
       </a>
 
       <nav class="site-nav" id="menu" data-site-nav aria-label="Navegação principal">
-        <a href="#quadras">Quadras</a>
+        <a href="#quadras">Quadras e estrutura</a>
         <a href="#valores">Valores</a>
-        <a href="#reservar">Como reservar</a>
-        <a href="#horarios">Horários</a>
+        <a href="#reserva">Como reservar</a>
+        <a href="#horario">Horário</a>
         <a href="#localizacao">Localização</a>
-        <a class="btn btn-primary nav-cta" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener">Reservar</a>
+        <a class="btn btn-primary nav-cta" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener">Reservar no WhatsApp</a>
       </nav>
 
       <button class="menu-toggle" type="button" data-menu-toggle aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
-        <i data-lucide="menu" aria-hidden="true"></i>
+        <i data-lucide="menu"></i>
       </button>
     </div>
   </header>
 
   <main id="main">
-    <!-- 2. Hero -->
     <section class="hero" id="top">
-      <div class="hero-overlay" aria-hidden="true"></div>
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Patronato · Santa Maria/RS</p>
-          <h1>Sport Show<br><span class="accent">Ribas Esportes</span></h1>
-          <p class="lead">Quadras de grama sintética e areia em um só complexo — futebol, futsal, society, beach tennis, futevôlei e vôlei de praia, com bar e espaço de convivência para o pós-jogo.</p>
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Santa Maria · RS — Patronato</p>
+          <h1>Quadras de<br>Grama e Areia<br>em um só lugar</h1>
+          <p class="lead">Futebol society, beach tennis, futevôlei e vôlei de praia. Bar no local para o pós-jogo. Próximo ao Estádio Presidente Vargas.</p>
 
           <div class="hero-actions">
             <a class="btn btn-primary btn-lg" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener">
-              <i data-lucide="message-circle" aria-hidden="true"></i> Reservar no WhatsApp
+              <i data-lucide="message-circle"></i> Reservar no WhatsApp
             </a>
-            <a class="btn btn-ghost btn-lg" href="#valores">Ver valores <i data-lucide="arrow-down-right" aria-hidden="true"></i></a>
+            <a class="btn btn-ghost btn-lg" href="#quadras">Ver estrutura <i data-lucide="arrow-down-right"></i></a>
           </div>
 
           <ul class="hero-facts">
             <li>
-              <i data-lucide="trophy" aria-hidden="true"></i>
-              <span><strong>Grama sintética</strong>futebol, futsal e society</span>
+              <i data-lucide="volleyball" aria-hidden="true"></i>
+              <span><strong>Grama sintética</strong>futebol / futsal / society</span>
             </li>
             <li>
               <i data-lucide="sun" aria-hidden="true"></i>
-              <span><strong>Quadras de areia</strong>beach tennis, futevôlei e vôlei</span>
+              <span><strong>Areia</strong>beach tennis / futevôlei / vôlei</span>
             </li>
             <li>
               <i data-lucide="map-pin" aria-hidden="true"></i>
-              <span><strong>Av. Liberdade, 726</strong>próx. ao Estádio Pres. Vargas</span>
+              <span><strong>Av. Liberdade, 726</strong>Patronato · Santa Maria/RS</span>
             </li>
           </ul>
         </div>
 
-        <div class="hero-media" data-aos="zoom-in" data-aos-duration="850">
+        <div class="hero-media" data-aos="zoom-in" data-aos-duration="950">
           <div class="hero-frame">
-            <div class="img-placeholder img-placeholder--hero" role="img" aria-label="Espaço reservado para foto ampla das quadras do Sport Show Ribas Esportes">
-              <span>[Foto da quadra]</span>
-            </div>
+            <div class="img-placeholder" style="width: 100%; aspect-ratio: 1 / 1.02; display: flex; align-items: center; justify-content: center; background: #1B7F4B22; color: #1B7F4B; font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 600; text-align: center; padding: 2rem;">[Foto aérea do complexo]</div>
           </div>
-          <p class="hero-tag"><span>Todos os dias</span>08h às 00h · consulte disponibilidade</p>
-          <p class="hero-vertical" aria-hidden="true">Grama sintética · Areia · Convivência</p>
+          <p class="hero-tag"><span>Bar no local</span>confraternização pós-jogo</p>
+          <p class="hero-vertical" aria-hidden="true">Grama Sintética · Areia · Bar</p>
         </div>
       </div>
     </section>
 
-    <!-- 3. Marquee -->
     <div class="marquee" aria-hidden="true">
       <div class="marquee-track">
-        <span>Futebol</span><b>·</b><span>Beach Tennis</span><b>·</b><span>Futevôlei</span><b>·</b><span>Vôlei de Praia</span><b>·</b><span>Patronato</span><b>·</b><span>Santa Maria/RS</span><b>·</b>
-        <span>Futebol</span><b>·</b><span>Beach Tennis</span><b>·</b><span>Futevôlei</span><b>·</b><span>Vôlei de Praia</span><b>·</b><span>Patronato</span><b>·</b><span>Santa Maria/RS</span><b>·</b>
+        <span>Futebol Society</span><b>✦</b><span>Beach Tennis</span><b>✦</b><span>Futevôlei</span><b>✦</b><span>Vôlei de Praia</span><b>✦</b><span>Patronato</span><b>✦</b><span>Santa Maria/RS</span><b>✦</b>
+        <span>Futebol Society</span><b>✦</b><span>Beach Tennis</span><b>✦</b><span>Futevôlei</span><b>✦</b><span>Vôlei de Praia</span><b>✦</b><span>Patronato</span><b>✦</b><span>Santa Maria/RS</span><b>✦</b>
       </div>
     </div>
 
-    <!-- 4. Quadras e estrutura -->
     <section class="section" id="quadras">
       <div class="container">
         <header class="section-head" data-aos="fade-up" data-aos-duration="700">
           <p class="section-index">01</p>
           <div>
-            <p class="eyebrow">O complexo</p>
+            <p class="eyebrow">O que você encontra</p>
             <h2>Quadras e estrutura</h2>
           </div>
-          <p class="section-note">Grama sintética, areia e convivência no mesmo endereço.</p>
+          <p class="section-note">Três espaços, múltiplas modalidades.</p>
         </header>
 
         <div class="cards-grid">
-          <article class="m-card" data-aos="slide-right" data-aos-duration="700">
-            <span class="m-card-num" aria-hidden="true">01</span>
-            <div class="img-placeholder img-placeholder--card" role="img" aria-label="Espaço reservado para foto da quadra de grama sintética">
-              <span>[Foto da quadra de grama sintética]</span>
-            </div>
-            <span class="icon-box" aria-hidden="true"><i data-lucide="trophy"></i></span>
+          <article class="m-card" data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
+            <span class="icon-box" aria-hidden="true"><i data-lucide="volleyball"></i></span>
             <h3>Grama Sintética</h3>
-            <p>Quadras para futebol, futsal e society — ideal para jogos entre amigos, times amadores, escolinhas e campeonatos.</p>
-            <a class="link-arrow" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener">
-              Reservar no WhatsApp <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-            </a>
+            <p>Quadras para futebol, futsal e society. Piso homologado, iluminação LED e marcação oficial.</p>
+            <ul class="tick-list">
+              <li>Piso sintético de alta performance</li>
+              <li>Iluminação para jogos noturnos</li>
+              <li>Marcação para society e futsal</li>
+            </ul>
+            <a class="link-arrow" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20as%20quadras%20de%20grama%20sintética%20do%20Sport%20Show." target="_blank" rel="noopener">Falar sobre grama <i data-lucide="arrow-up-right"></i></a>
           </article>
 
-          <article class="m-card" data-aos="slide-right" data-aos-duration="700" data-aos-delay="100">
-            <span class="m-card-num" aria-hidden="true">02</span>
-            <div class="img-placeholder img-placeholder--card" role="img" aria-label="Espaço reservado para foto das quadras de areia">
-              <span>[Foto da quadra de areia]</span>
-            </div>
+          <article class="m-card" data-aos="fade-up" data-aos-duration="700" data-aos-delay="120">
             <span class="icon-box" aria-hidden="true"><i data-lucide="sun"></i></span>
             <h3>Quadras de Areia</h3>
-            <p>Espaço preparado para beach tennis, futevôlei e vôlei de praia em qualquer dia da semana.</p>
-            <a class="link-arrow" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener">
-              Reservar no WhatsApp <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-            </a>
+            <p>Beach tennis, futevôlei e vôlei de praia. Areia selecionada, redes oficiais e área coberta.</p>
+            <ul class="tick-list">
+              <li>Areia tratada para modalidades de praia</li>
+              <li>Redes regulamentares</li>
+              <li>Cobertura para sol e chuva</li>
+            </ul>
+            <a class="link-arrow" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20as%20quadras%20de%20areia%20do%20Sport%20Show." target="_blank" rel="noopener">Falar sobre areia <i data-lucide="arrow-up-right"></i></a>
           </article>
 
-          <article class="m-card m-card--accent" data-aos="slide-right" data-aos-duration="700" data-aos-delay="200">
-            <span class="m-card-num" aria-hidden="true">03</span>
-            <div class="img-placeholder img-placeholder--card" role="img" aria-label="Espaço reservado para foto do bar e espaço de convivência">
-              <span>[Foto do bar e espaço de convivência]</span>
-            </div>
+          <article class="m-card m-card--accent" data-aos="fade-up" data-aos-duration="700" data-aos-delay="240">
             <span class="icon-box" aria-hidden="true"><i data-lucide="coffee"></i></span>
-            <h3>Bar e Espaço de Convivência</h3>
-            <p>Área no local para reunir o grupo e fazer confraternizações depois da partida.</p>
-            <a class="link-arrow" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener">
-              Consultar no WhatsApp <i data-lucide="arrow-up-right" aria-hidden="true"></i>
-            </a>
+            <h3>Bar e Convivência</h3>
+            <p>Espaço para o pós-jogo: bebidas geladas, porções e ambiente para confraternização do time.</p>
+            <ul class="tick-list">
+              <li>Cerveja gelada e drinks</li>
+              <li>Porções para compartilhar</li>
+              <li>Área coberta com mesas</li>
+            </ul>
+            <a class="link-arrow" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20bar%20e%20espaço%20de%20convivência%20do%20Sport%20Show." target="_blank" rel="noopener">Falar sobre o bar <i data-lucide="arrow-up-right"></i></a>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- 5. Valores por horário -->
     <section class="section section--surface" id="valores">
       <div class="container">
-        <header class="section-head" data-aos="fade-up" data-aos-duration="600">
+        <header class="section-head" data-aos="fade-up" data-aos-duration="400">
           <p class="section-index">02</p>
           <div>
-            <p class="eyebrow">Reserva por hora</p>
+            <p class="eyebrow">Investimento</p>
             <h2>Valores por horário</h2>
           </div>
-          <p class="section-note">Preços confirmados diretamente no atendimento.</p>
+          <p class="section-note">Preços variam por dia e horário.</p>
         </header>
 
-        <div class="pricing-notice" data-aos="fade-up" data-aos-duration="600">
-          <div class="pricing-notice-body">
-            <span class="pricing-badge">
-              <i data-lucide="calendar-clock" aria-hidden="true"></i> Atendimento direto
-            </span>
-            <h3>Consulte valores pelo WhatsApp — preços variam por dia e horário.</h3>
-            <p>Informe a modalidade desejada (grama sintética ou areia), o dia da semana e o horário para receber o valor atualizado e confirmar a disponibilidade.</p>
-          </div>
-          <div class="pricing-notice-action">
-            <a class="btn btn-primary btn-lg" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener">
-              <i data-lucide="message-circle" aria-hidden="true"></i> Consultar pelo WhatsApp
+        <div class="price-notice" data-aos="fade-up" data-aos-duration="400" data-aos-delay="100">
+          <div class="price-notice-icon" aria-hidden="true"><i data-lucide="info"></i></div>
+          <div>
+            <p class="price-notice-title">Consulte valores pelo WhatsApp</p>
+            <p class="price-notice-text">Os preços variam conforme o dia da semana e a faixa de horário (pico / off-peak). Não há tabela fixa pública.</p>
+            <a class="btn btn-primary btn-block" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20saber%20os%20valores%20para%20reservar%20uma%20quadra." target="_blank" rel="noopener">
+              <i data-lucide="message-circle"></i> Consultar valores no WhatsApp
             </a>
           </div>
         </div>
 
-        <div class="rates-grid" data-aos="fade-up" data-aos-duration="600" data-aos-delay="80">
-          <div class="rate-card">
-            <span class="rate-label">Modalidade</span>
-            <h4>Grama Sintética</h4>
-            <p class="rate-value">Consulte pelo WhatsApp</p>
-            <p class="rate-note">Futebol, futsal e society · variação por dia e faixa de horário.</p>
-          </div>
-          <div class="rate-card">
-            <span class="rate-label">Modalidade</span>
-            <h4>Quadras de Areia</h4>
-            <p class="rate-value">Consulte pelo WhatsApp</p>
-            <p class="rate-note">Beach tennis, futevôlei e vôlei de praia · variação por dia e faixa de horário.</p>
-          </div>
-          <div class="rate-card">
-            <span class="rate-label">Pagamento e condições</span>
-            <h4>Confirmação no agendamento</h4>
-            <p class="rate-value">Consulte pelo WhatsApp</p>
-            <p class="rate-note">Formas de pagamento e regras de reserva informadas no atendimento.</p>
-          </div>
-        </div>
+        <p class="section-foot" data-aos="fade-up" data-aos-duration="400" data-aos-delay="200">
+          <i data-lucide="clock" aria-hidden="true"></i>
+          Valores por hora. Sinal de reserva e formas de pagamento (Pix, cartão, dinheiro) combinados no atendimento.
+        </p>
       </div>
     </section>
 
-    <!-- 6. Como reservar -->
-    <section class="section section--accent" id="reservar">
+    <section class="section section--accent" id="reserva">
       <div class="container">
-        <header class="section-head section-head--accent" data-aos="fade-up" data-aos-duration="600">
+        <header class="section-head section-head--accent" data-aos="fade-up" data-aos-duration="400">
           <p class="section-index">03</p>
           <div>
-            <p class="eyebrow">Rápido e direto</p>
+            <p class="eyebrow">Como funciona</p>
             <h2>Como reservar</h2>
           </div>
-          <p class="section-note">Sem burocracia. Tudo resolvido pelo WhatsApp.</p>
+          <p class="section-note">Três passos, sem burocracia.</p>
         </header>
 
         <ol class="steps">
-          <li data-aos="fade-up" data-aos-duration="600">
+          <li data-aos="fade-up" data-aos-duration="400">
             <span class="step-num" aria-hidden="true">01</span>
-            <h3>Escolha o dia e horário</h3>
-            <p>Defina a modalidade (grama sintética ou areia), o dia e o horário do jogo entre 08h e 00h.</p>
+            <h3>Escolha dia e horário</h3>
+            <p>Verifique a disponibilidade da quadra desejada para a data e horário que seu time prefere.</p>
           </li>
-          <li data-aos="fade-up" data-aos-duration="600" data-aos-delay="80">
+          <li data-aos="fade-up" data-aos-duration="400" data-aos-delay="80">
             <span class="step-num" aria-hidden="true">02</span>
             <h3>Confirme pelo WhatsApp</h3>
-            <p>Envie uma mensagem para checar a disponibilidade da quadra, consultar o valor e confirmar a reserva.</p>
+            <p>Envie a solicitação com dia, horário e modalidade. A equipe confirma valor e reserva na hora.</p>
           </li>
-          <li data-aos="fade-up" data-aos-duration="600" data-aos-delay="160">
+          <li data-aos="fade-up" data-aos-duration="400" data-aos-delay="160">
             <span class="step-num" aria-hidden="true">03</span>
             <h3>Jogue!</h3>
-            <p>Reúna o grupo, chegue na Av. Liberdade, 726 e aproveite a partida e o espaço de convivência.</p>
+            <p>Chegue 10 minutos antes, faça o pagamento do sinal e aproveite a quadra com seu time.</p>
           </li>
         </ol>
 
-        <div class="reserve-cta" data-aos="fade-up" data-aos-duration="600">
+        <div class="experimental-cta" data-aos="fade-up" data-aos-duration="400" data-aos-delay="240">
           <div>
-            <p class="reserve-title">Quer garantir o horário da sua turma?</p>
-            <p class="reserve-note">Atendimento pelo WhatsApp (55) 99976-8685.</p>
+            <p class="experimental-title">Pronto para reservar?</p>
+            <p class="experimental-note">Mensagem pré-preenchida: "Quero reservar a quadra dia __ às __". Política de cancelamento e sinal combinados no atendimento.</p>
           </div>
           <a class="btn btn-light btn-lg" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener">
-            <i data-lucide="message-circle" aria-hidden="true"></i> Reservar no WhatsApp
+            <i data-lucide="message-circle"></i> Reservar pelo WhatsApp
           </a>
         </div>
       </div>
     </section>
 
-    <!-- 7. Horário de funcionamento -->
-    <section class="section" id="horarios">
+    <section class="section" id="horario">
       <div class="container">
-        <header class="section-head" data-aos="fade-up" data-aos-duration="600">
+        <header class="section-head" data-aos="fade-up" data-aos-duration="400">
           <p class="section-index">04</p>
           <div>
-            <p class="eyebrow">Funcionamento</p>
+            <p class="eyebrow">Quando abre</p>
             <h2>Horário de funcionamento</h2>
           </div>
-          <p class="section-note">Aberto todos os dias, do dia à noite.</p>
+          <p class="section-note">Todos os dias da semana.</p>
         </header>
 
-        <div class="hours-wrap" data-aos="fade-up" data-aos-duration="600">
-          <table class="hours-table">
+        <div class="hours-table" data-aos="fade-up" data-aos-duration="400" data-aos-delay="100">
+          <table>
             <thead>
               <tr>
-                <th scope="col">Dia da semana</th>
-                <th scope="col">Horário</th>
-                <th scope="col">Observação</th>
+                <th scope="col">Dia</th>
+                <th scope="col">Abertura</th>
+                <th scope="col">Fechamento</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>Segunda-feira</td>
-                <td><span class="hours-time"><i data-lucide="clock" aria-hidden="true"></i> 08h às 00h</span></td>
-                <td>Mediante reserva</td>
-              </tr>
-              <tr>
-                <td>Terça-feira</td>
-                <td><span class="hours-time"><i data-lucide="clock" aria-hidden="true"></i> 08h às 00h</span></td>
-                <td>Mediante reserva</td>
-              </tr>
-              <tr>
-                <td>Quarta-feira</td>
-                <td><span class="hours-time"><i data-lucide="clock" aria-hidden="true"></i> 08h às 00h</span></td>
-                <td>Mediante reserva</td>
-              </tr>
-              <tr>
-                <td>Quinta-feira</td>
-                <td><span class="hours-time"><i data-lucide="clock" aria-hidden="true"></i> 08h às 00h</span></td>
-                <td>Mediante reserva</td>
-              </tr>
-              <tr>
-                <td>Sexta-feira</td>
-                <td><span class="hours-time"><i data-lucide="clock" aria-hidden="true"></i> 08h às 00h</span></td>
-                <td>Mediante reserva</td>
-              </tr>
-              <tr>
-                <td>Sábado</td>
-                <td><span class="hours-time"><i data-lucide="clock" aria-hidden="true"></i> 08h às 00h</span></td>
-                <td>Mediante reserva</td>
-              </tr>
-              <tr>
-                <td>Domingo</td>
-                <td><span class="hours-time"><i data-lucide="clock" aria-hidden="true"></i> 08h às 00h</span></td>
-                <td>Mediante reserva</td>
-              </tr>
+              <tr><td>Segunda a Sexta</td><td>08h</td><td>00h</td></tr>
+              <tr><td>Sábado</td><td>08h</td><td>00h</td></tr>
+              <tr><td>Domingo</td><td>08h</td><td>00h</td></tr>
             </tbody>
           </table>
-
-          <p class="section-foot">
-            <i data-lucide="info" aria-hidden="true"></i>
-            <span>Consulte disponibilidade de quadra pelo WhatsApp. Horários de referência obtidos em dados públicos online e sujeitos a confirmação no atendimento.</span>
-          </p>
+          <p class="hours-note"><i data-lucide="info" aria-hidden="true"></i> Último horário disponível para reserva varia conforme demanda. Consulte disponibilidade de quadra pelo WhatsApp.</p>
         </div>
       </div>
     </section>
 
-    <!-- 8. Localização -->
     <section class="section section--surface" id="localizacao">
       <div class="container">
-        <header class="section-head" data-aos="fade-up" data-aos-duration="600">
+        <header class="section-head" data-aos="fade-up" data-aos-duration="400">
           <p class="section-index">05</p>
           <div>
-            <p class="eyebrow">Como chegar</p>
+            <p class="eyebrow">Onde estamos</p>
             <h2>Localização</h2>
           </div>
-          <p class="section-note">Bairro Patronato, Santa Maria/RS.</p>
+          <p class="section-note">Fácil acesso, próximo ao Estádio Presidente Vargas.</p>
         </header>
 
         <div class="contact-grid">
-          <div class="contact-info" data-aos="fade-up" data-aos-duration="600">
+          <div class="contact-info" data-aos="fade-up" data-aos-duration="400">
             <div class="contact-block">
               <span class="contact-icon" aria-hidden="true"><i data-lucide="map-pin"></i></span>
               <div>
                 <p class="contact-label">Endereço</p>
                 <p class="contact-value">Av. Liberdade, 726<br>Bairro Patronato · Santa Maria/RS<br>CEP 97020-490</p>
-                <p class="contact-hint">Referência: próximo ao Estádio Presidente Vargas.</p>
-                <a class="link-arrow" href="https://maps.google.com/?q=Av.+Liberdade,+726,+Patronato,+Santa+Maria,+RS" target="_blank" rel="noopener">
-                  Abrir no Google Maps <i data-lucide="navigation" aria-hidden="true"></i>
-                </a>
+                <a class="link-arrow" href="https://maps.google.com/?q=Av.+Liberdade,+726,+Patronato,+Santa+Maria,+RS" target="_blank" rel="noopener">Abrir no mapa <i data-lucide="navigation"></i></a>
               </div>
             </div>
 
@@ -344,19 +276,24 @@
               <span class="contact-icon" aria-hidden="true"><i data-lucide="message-circle"></i></span>
               <div>
                 <p class="contact-label">WhatsApp</p>
-                <p class="contact-value">
-                  <a href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener">+55 55 99976-8685</a>
-                </p>
-                <p class="contact-hint">Reservas de horário e consulta de valores.</p>
+                <p class="contact-value"><a href="https://wa.me/5555999768685" target="_blank" rel="noopener">(55) 99976-8685</a></p>
+                <p class="contact-hint">Reservas, valores e informações.</p>
+              </div>
+            </div>
+
+            <div class="contact-block">
+              <span class="contact-icon" aria-hidden="true"><i data-lucide="phone"></i></span>
+              <div>
+                <p class="contact-label">Telefone</p>
+                <p class="contact-value"><a href="tel:+5555999768685">(55) 99976-8685</a></p>
               </div>
             </div>
 
             <div class="contact-block">
               <span class="contact-icon" aria-hidden="true"><i data-lucide="clock"></i></span>
               <div>
-                <p class="contact-label">Horário de atendimento</p>
-                <p class="contact-value">Segunda a Domingo · 08h às 00h</p>
-                <p class="contact-hint">Consulte disponibilidade de quadra pelo WhatsApp.</p>
+                <p class="contact-label">Funcionamento</p>
+                <p class="contact-value">Seg–Dom · 08h às 00h</p>
               </div>
             </div>
 
@@ -366,70 +303,72 @@
               </span>
               <div>
                 <p class="contact-label">Instagram</p>
-                <p class="contact-value">
-                  <a href="https://instagram.com/ribasesportes" target="_blank" rel="noopener">Instagram</a>
-                </p>
+                <p class="contact-value"><a href="https://instagram.com/ribasesportes" target="_blank" rel="noopener">@ribasesportes</a></p>
+                <p class="contact-hint">Perfil não confirmado oficialmente.</p>
+              </div>
+            </div>
+
+            <div class="contact-block">
+              <span class="contact-icon" aria-hidden="true"><i data-lucide="landmark"></i></span>
+              <div>
+                <p class="contact-label">Referência</p>
+                <p class="contact-value">Próximo ao Estádio Presidente Vargas</p>
               </div>
             </div>
           </div>
 
-          <div class="contact-map" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+          <div class="contact-map" data-aos="fade-up" data-aos-duration="400" data-aos-delay="100">
             <iframe
-              title="Mapa de localização — Sport Show Ribas Esportes, Av. Liberdade, 726, Santa Maria/RS"
-              src="https://www.google.com/maps?q=Av.+Liberdade,+726,+Patronato,+Santa+Maria,+RS&amp;output=embed"
-              width="600" height="460" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+              title="Mapa do Sport Show Ribas Esportes — Av. Liberdade, 726, Patronato, Santa Maria/RS"
+              src="https://www.google.com/maps?q=Av.+Liberdade,+726,+Patronato,+Santa+Maria+-+RS,+97020-490&output=embed"
+              width="600" height="480" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- 9. Footer -->
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <div class="footer-brand-head">
-          <div class="img-placeholder img-placeholder--footer-logo" aria-hidden="true">[Logo]</div>
-          <span class="brand-text">Sport Show <span class="brand-sep" aria-hidden="true">|</span> <em>Ribas Esportes</em></span>
+        <div class="footer-icon" aria-hidden="true">
+          <i data-lucide="volleyball"></i>
         </div>
-        <p>Quadras de grama sintética e areia, com bar e espaço de convivência no Bairro Patronato, Santa Maria/RS.</p>
+        <p>Quadras de grama sintética e areia no Patronato, Santa Maria/RS. Bar no local para confraternização pós-jogo.</p>
         <div class="footer-social">
           <a href="https://instagram.com/ribasesportes" target="_blank" rel="noopener" aria-label="Instagram do Sport Show Ribas Esportes">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"></circle></svg>
           </a>
-          <a href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener" aria-label="WhatsApp do Sport Show Ribas Esportes">
-            <i data-lucide="message-circle" aria-hidden="true"></i>
-          </a>
-          <a href="https://maps.google.com/?q=Av.+Liberdade,+726,+Patronato,+Santa+Maria,+RS" target="_blank" rel="noopener" aria-label="Localização no Google Maps">
-            <i data-lucide="map-pin" aria-hidden="true"></i>
-          </a>
+          <a href="https://wa.me/5555999768685" target="_blank" rel="noopener" aria-label="WhatsApp do Sport Show Ribas Esportes"><i data-lucide="message-circle"></i></a>
+          <a href="tel:+5555999768685" aria-label="Ligar para o Sport Show Ribas Esportes"><i data-lucide="phone"></i></a>
         </div>
       </div>
 
       <nav class="footer-col" aria-label="Navegação do rodapé">
         <p class="footer-title">Navegar</p>
         <a href="#quadras">Quadras e estrutura</a>
-        <a href="#valores">Valores por horário</a>
-        <a href="#reservar">Como reservar</a>
-        <a href="#horarios">Horário de funcionamento</a>
+        <a href="#valores">Valores</a>
+        <a href="#reserva">Como reservar</a>
+        <a href="#horario">Horário</a>
         <a href="#localizacao">Localização</a>
       </nav>
 
       <div class="footer-col">
         <p class="footer-title">Contato</p>
-        <a href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener">+55 55 99976-8685</a>
-        <p>Av. Liberdade, 726 – Bairro Patronato<br>Santa Maria/RS · CEP 97020-490<br>Próximo ao Estádio Presidente Vargas</p>
+        <a href="tel:+5555999768685">(55) 99976-8685</a>
+        <a href="https://wa.me/5555999768685" target="_blank" rel="noopener">(55) 99976-8685 (WhatsApp)</a>
+        <p>Av. Liberdade, 726<br>Patronato<br>Santa Maria/RS · 97020-490</p>
       </div>
     </div>
 
     <div class="container footer-bottom">
-      <p>© 2024 Sport Show Ribas Esportes. Todos os direitos reservados.</p>
-      <p>Valores e disponibilidade sujeitos a confirmação pelo WhatsApp.</p>
+      <p>© <span data-year>2026</span> Sport Show Ribas Esportes. Todos os direitos reservados.</p>
+      <p>Preços, horários e disponibilidade sujeitos a confirmação pelo WhatsApp. Antes de praticar esportes, consulte um profissional de educação física.</p>
     </div>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener" aria-label="Reservar quadra no WhatsApp">
-    <i data-lucide="message-circle" aria-hidden="true"></i>
+  <a class="whatsapp-float" href="https://wa.me/5555999768685?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20reservar%20uma%20quadra." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <i data-lucide="message-circle"></i>
   </a>
 
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
@@ -441,9 +380,8 @@
     "@context": "https://schema.org",
     "@type": "SportsActivityLocation",
     "name": "Sport Show Ribas Esportes",
-    "description": "Complexo esportivo com quadras de grama sintética, areia (beach tennis, futevôlei e vôlei de praia) e bar em Santa Maria/RS.",
+    "description": "Complexo esportivo com quadras de grama sintética (futebol/futsal/society) e areia (beach tennis, futevôlei, vôlei de praia) em Santa Maria/RS.",
     "telephone": "+5555999768685",
-    "openingHours": "Mo-Su 08:00-24:00",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Av. Liberdade, 726",
@@ -452,7 +390,15 @@
       "postalCode": "97020-490",
       "addressCountry": "BR"
     },
-    "sameAs": ["https://instagram.com/ribasesportes"]
+    "sameAs": ["https://instagram.com/ribasesportes"],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "08:00",
+        "closes": "00:00"
+      }
+    ]
   }
   </script>
 </body>
