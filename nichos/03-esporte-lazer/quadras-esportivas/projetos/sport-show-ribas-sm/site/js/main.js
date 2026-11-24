@@ -1,16 +1,16 @@
 // Sport Show Ribas Esportes — inicializações
-// Animações de entrada via AOS (com fallback CSS scroll-driven), Lucide e menu mobile.
+// Animações de entrada acionadas a cada nova passagem pela seção.
 
 document.addEventListener("DOMContentLoaded", () => {
   const supportsScrollDrivenAnimations = CSS.supports("animation-timeline: view()");
 
   if (window.AOS && !supportsScrollDrivenAnimations) {
     AOS.init({
-      duration: 750,
+      duration: 850,
       easing: "ease-out-quart",
       once: false,
       mirror: true,
-      offset: 90,
+      offset: 100,
     });
 
     window.addEventListener("load", () => window.AOS.refreshHard(), { once: true });
@@ -68,5 +68,9 @@ document.addEventListener("DOMContentLoaded", () => {
       });
       window.history.pushState(null, "", targetId);
     });
+  });
+
+  document.querySelectorAll("[data-year]").forEach((el) => {
+    el.textContent = String(new Date().getFullYear());
   });
 });
