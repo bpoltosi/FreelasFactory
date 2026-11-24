@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{NOME}} — {{CIDADE}}</title>
+  <meta name="description" content="{{DESCRICAO_150_CHARS}}">
+
+  <!-- Fontes: trocar pelas do playbook da categoria -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <span class="brand">{{NOME}}</span>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" data-menu-toggle>
+        <i data-lucide="menu"></i>
+      </button>
+      <nav class="site-nav" data-site-nav>
+        <a href="#secao-1">Seção 1</a>
+        <a href="#secao-2">Seção 2</a>
+        <a class="btn btn-primary" href="{{WHATSAPP}}">Falar no WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section hero" id="secao-1">
+      <div class="container">
+        <p class="eyebrow">{{CIDADE}}</p>
+        <h1>{{TITULO_HERO}}</h1>
+        <p class="lead">{{SUBTITULO}}</p>
+        <a class="btn btn-primary" href="{{WHATSAPP}}">
+          <i data-lucide="message-circle"></i> {{TEXTO_CTA}}
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="secao-2" data-aos="fade-up">
+      <div class="container">
+        <h2>{{TITULO_SECAO}}</h2>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>{{NOME}} · {{ENDERECO}} · <a href="tel:{{TELEFONE}}">{{TELEFONE}}</a></p>
+      <p class="footer-legal">Aviso legal da categoria aqui.</p>
+      <p class="footer-year">&copy; <span data-year></span> {{NOME}}</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

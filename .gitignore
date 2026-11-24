@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# saída de validação e prints de revisão são artefatos locais
+qa/prints/
+qa/validators-*.json
+!qa/validators-1.json
+
+# rascunho de projeto
+*.tmp
+*.bak
