@@ -15,7 +15,7 @@ Um sistema orquestrador que recebe um briefing (dados do negócio) + uma categor
 - Checklist de aceite por categoria (o que define um site aprovado).
 
 **Estrutura no disco**
-`site-factory/` — `_templates/projeto` (esqueleto de cliente) + `nichos/<nicho>/<categoria>/{_categoria.md, referencias/, projetos/}`.
+Repo `FreelasFactory`: `_templates/projeto` (esqueleto de cliente) + `nichos/<nicho>/<categoria>/{_categoria.md, referencias/, projetos/}`.
 
 **Stack de saída (decidido)**
 - HTML + CSS puro (sem framework, sem build).

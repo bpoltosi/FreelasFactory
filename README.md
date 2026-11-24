@@ -1,4 +1,4 @@
-# site-factory
+# FreelasFactory
 
 Fábrica de sites para negócios locais: catálogo de nichos, playbooks versionados e pipeline multi-agente no Orca que só entrega quando o site passa nos validadores e na revisão.
 
